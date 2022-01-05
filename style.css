@@ -45,7 +45,7 @@ section{
         width: 250px;
         border: 2px solid gray;
         border-radius: 7px;
-        padding-left: 5px;
+        padding-left: 2px;
     }
     .mi-vi-go img{
         width: 100%;
@@ -72,6 +72,22 @@ section{
     background-image: url(img/shape-1.png);
     background-repeat: no-repeat;
     background-position: right;
-    background-position: bottom;
     background-size: 250px;
+}
+.low-section{
+    background-image: url(img/shape-6.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 250px;
+}
+#corona{
+    box-shadow: 10px 10px 10px 10px gray;
+}
+.low-section img{
+    width: 50%;
+}
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
